@@ -113,6 +113,7 @@ ul {
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-left: -15px;
   margin-right: -15px;
   position: relative;
@@ -277,7 +278,7 @@ h3.hello {
 }
 h3.hello span {
   font-family: "Clicker Script", cursive;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 700;
   color: var(--skin-color);
 }
@@ -306,7 +307,8 @@ h3.my-profession {
   width: 80px;
   border-bottom: 10px solid var(--skin-color);
   border-right: 10px solid var(--skin-color);
-  right: -10px;
+  border-radius: 10%;
+  right: -20px;
   bottom: -40px;
 }
 .home-img::before {
@@ -316,6 +318,7 @@ h3.my-profession {
   width: 80px;
   border-top: 10px solid var(--skin-color);
   border-left: 10px solid var(--skin-color);
+  border-radius: 10%;
   left: -20px;
   top: -40px;
 }
